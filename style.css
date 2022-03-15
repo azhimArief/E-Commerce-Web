@@ -1,0 +1,6 @@
+body {
+    font-family: 'Lato', sans-serif;
+    //by default there will be sp the words will be spaced so put this to make it okay 
+    padding: 0;
+    margin: 0;
+}
