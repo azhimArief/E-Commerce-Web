@@ -1,6 +1,58 @@
 body {
-    font-family: 'Lato', sans-serif;
-    //by default there will be sp the words will be spaced so put this to make it okay 
-    padding: 0;
-    margin: 0;
+  font-family: "Lato", sans-serif;
+  //by default there will be space, the words will be spaced so put this to make it okay
+  padding: 0;
+  margin: 0;
 }
+
+nav {
+  background-color: black;
+  color: white;
+  padding: 20px 50px;
+}
+/* 20px top and bottom, 50px right and left padding */
+
+.navTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* space-between to give space in navigation bar items */
+
+.search {
+  display: flex;
+  align-items: center;
+  background-color: gray;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.searchInput {
+  border: none;
+  background-color: transparent;
+}
+.searchInput::placeholder {
+  color: lightgray;
+}
+/* to make word Search appear and visible*/
+
+.limitedOffer {
+  font-size: 20px;
+  border-bottom: 2px solid red;
+  cursor: pointer;
+}
+
+.navBottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menuItem {
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  cursor: pointer;
+  color: lightgray;
+  font-weight: 400;
+}
+/* font-weight= defines how thick or thin the words. 700 is bold, 400 is normal */
