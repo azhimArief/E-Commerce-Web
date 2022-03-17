@@ -1,9 +1,9 @@
 body {
   font-family: "Lato", sans-serif;
-  //by default there will be space, the words will be spaced so put this to make it okay
   padding: 0;
   margin: 0;
 }
+/* by default there will be space, the words will be spaced so put this to make it okay */
 
 nav {
   background-color: black;
@@ -56,3 +56,9 @@ nav {
   font-weight: 400;
 }
 /* font-weight= defines how thick or thin the words. 700 is bold, 400 is normal */
+
+.slider {
+  background: url("https://i.pinimg.com/564x/68/c9/c4/68c9c457ef8882190c2b515d0fdcb416.jpg");
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 76%);
+}
+/* clip-path will make the bg shape differently. Can find clip path generator online for it.*/
