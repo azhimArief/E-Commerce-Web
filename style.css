@@ -73,8 +73,13 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
-
+/* if you want to use position absolute, the parent must have position relative.*/
 .sliderTitle {
-  
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  font-size: 60px;
+  color: white;
 }
