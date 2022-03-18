@@ -62,3 +62,19 @@ nav {
   clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 76%);
 }
 /* clip-path will make the bg shape differently. Can find clip path generator online for it.*/
+
+.sliderWrapper {
+  display: flex;
+  width: 500vw;
+}
+
+.sliderItem {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sliderTitle {
+  
+}
