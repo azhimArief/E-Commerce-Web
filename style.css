@@ -59,7 +59,7 @@ nav {
 
 .slider {
   background: url("https://i.pinimg.com/564x/68/c9/c4/68c9c457ef8882190c2b515d0fdcb416.jpg");
-  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 76%);
+  //clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 76%);
 }
 /* clip-path will make the bg shape differently. Can find clip path generator online for it.*/
 
@@ -133,3 +133,10 @@ nav {
   background-color: white;
   color: black;
 }
+
+.sliderItem:nth-child(1) .slideBg {
+  background-color: aqua;
+}
+/* nth-child can adjust the child div. If theres a lot of same div
+  you can uses this 
+*/
