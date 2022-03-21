@@ -137,6 +137,18 @@ nav {
 .sliderItem:nth-child(1) .slideBg {
   background-color: aqua;
 }
+.sliderItem:nth-child(2) .slideBg {
+  background-color: purple;
+}
+.sliderItem:nth-child(3) .slideBg {
+  background-color: teal;
+}
+.sliderItem:nth-child(4) .slideBg {
+  background-color: firebrick;
+}
+.sliderItem:nth-child(5) .slideBg {
+  background-color: goldenrod;
+}
 /* nth-child can adjust the child div. If theres a lot of same div
   you can uses this 
 */
