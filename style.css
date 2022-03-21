@@ -81,7 +81,7 @@ nav {
   z-index: 1;
 }
 
-.slideBg {
+.sliderBg {
   position: absolute;
   width: 750px;
   height: 750px;
@@ -134,21 +134,39 @@ nav {
   color: black;
 }
 
-.sliderItem:nth-child(1) .slideBg {
+.sliderItem:nth-child(1) .sliderBg {
   background-color: aqua;
 }
-.sliderItem:nth-child(2) .slideBg {
+.sliderItem:nth-child(2) .sliderBg {
   background-color: purple;
 }
-.sliderItem:nth-child(3) .slideBg {
+.sliderItem:nth-child(3) .sliderBg {
   background-color: teal;
 }
-.sliderItem:nth-child(4) .slideBg {
+.sliderItem:nth-child(4) .sliderBg {
   background-color: firebrick;
 }
-.sliderItem:nth-child(5) .slideBg {
+.sliderItem:nth-child(5) .sliderBg {
   background-color: goldenrod;
-}
+} 
 /* nth-child can adjust the child div. If theres a lot of same div
   you can uses this 
+  Up is for border color
+  Below is for text color
 */
+.sliderItem:nth-child(1) .sliderPrice {
+  color: aqua;
+}
+.sliderItem:nth-child(2) .sliderPrice {
+  color: purple;
+}
+.sliderItem:nth-child(3) .sliderPrice {
+  color: teal;
+}
+.sliderItem:nth-child(4) .sliderPrice {
+  color: firebrick;
+}
+.sliderItem:nth-child(5) .sliderPrice {
+  color: goldenrod;
+} 
+
