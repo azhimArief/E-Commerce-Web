@@ -2,8 +2,13 @@ body {
   font-family: "Lato", sans-serif;
   padding: 0;
   margin: 0;
+  overflow: hidden;
 }
-/* by default there will be space, the words will be spaced so put this to make it okay */
+/* 
+I added the overflow hidden
+by default there will be space, the words will be spaced
+so put this to make it okay 
+*/
 
 nav {
   background-color: black;
@@ -60,12 +65,18 @@ nav {
 .slider {
   background: url("https://i.pinimg.com/564x/68/c9/c4/68c9c457ef8882190c2b515d0fdcb416.jpg");
   //clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 76%);
+  overflow: hidden;
 }
-/* clip-path will make the bg shape differently. Can find clip path generator online for it.*/
+/*
+I added overflow hidden to hide the scrollbar
+clip-path will make the bg shape differently. 
+Can find clip path generator online for it.
+*/
 
 .sliderWrapper {
   display: flex;
   width: 500vw;
+  transition: all 1s ease-in-out;
 }
 
 .sliderItem {
@@ -148,7 +159,7 @@ nav {
 }
 .sliderItem:nth-child(5) .sliderBg {
   background-color: goldenrod;
-} 
+}
 /* nth-child can adjust the child div. If theres a lot of same div
   you can uses this 
   Up is for border color
@@ -168,5 +179,4 @@ nav {
 }
 .sliderItem:nth-child(5) .sliderPrice {
   color: goldenrod;
-} 
-
+}
