@@ -2,7 +2,7 @@ body {
   font-family: "Lato", sans-serif;
   padding: 0;
   margin: 0;
-  overflow: hidden;
+  //overflow: hidden;
 }
 /* 
 I added the overflow hidden
@@ -76,7 +76,7 @@ Can find clip path generator online for it.
 .sliderWrapper {
   display: flex;
   width: 500vw;
-  transition: all 1s ease-in-out;
+  transition: all 1.2s ease-in-out;
 }
 
 .sliderItem {
