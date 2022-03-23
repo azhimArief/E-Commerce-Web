@@ -180,3 +180,18 @@ Can find clip path generator online for it.
 .sliderItem:nth-child(5) .sliderPrice {
   color: goldenrod;
 }
+
+.features {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+.featureItems {
+  display: flex;
+  flex-direction: column;
+}
+.featureImg {
+  width: 50px;
+  height: 50px;
+}
