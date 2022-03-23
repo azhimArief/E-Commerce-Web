@@ -190,8 +190,26 @@ Can find clip path generator online for it.
 .featureItems {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 .featureImg {
   width: 50px;
   height: 50px;
+}
+.featureTitle {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 20px;
+}
+/*
+  margin = is used to create space around elements, outside of an defined borders.
+  Diferences"
+  padding controls the space inside an element, while margin is outside.
+
+*/
+.featureDesc {
+  color: gray; 
+  width: 60%;
+  height: 100px;
 }
