@@ -64,7 +64,7 @@ nav {
 
 .slider {
   background: url("https://i.pinimg.com/564x/68/c9/c4/68c9c457ef8882190c2b515d0fdcb416.jpg");
-  //clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 76%);
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 80%);
   overflow: hidden;
 }
 /*
@@ -209,7 +209,54 @@ Can find clip path generator online for it.
 
 */
 .featureDesc {
-  color: gray; 
+  color: gray;
   width: 60%;
   height: 100px;
+}
+
+.product {
+  height: 100vh;
+  background-color: whitesmoke;
+  position: relative;
+  clip-path: polygon(0 7%, 100% 0%, 100% 100%, 0 100%);
+}
+.productImg {
+  width: 50%;
+}
+.productDetails {
+  position: absolute;
+  top: 10%;
+  right: 0;
+  width: 50%;
+  padding: 50px;
+}
+.productTitle {
+  font-size: 75px;
+  font-weight: 900;
+}
+.productDesc {
+  font-size: 26px;
+  color: gray;
+}
+.colors, .sizes {
+  display: flex;
+  margin-bottom: 20px;
+}
+.color {
+  width: 32px;
+  height: 32px;
+  border-radius: 5px;
+  background-color: black;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.color:last-child {
+  background-color: darkblue;
+}
+.size {
+  padding: 5px 20px;
+  border: 1px solid black;
+  margin-right: 15px;
+  cursor: pointer;
+  font-size: 20px;
 }
