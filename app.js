@@ -83,7 +83,7 @@ const products = [
   },
 ];
 
-let choosenProduct = products[0];
+let choosenProduct = products[1];
 
 const currentProductImg = document.querySelector(".productImg");
 const currentProductTitle = document.querySelector(".productTitle");
@@ -98,6 +98,11 @@ menuItems.forEach((item, index) => {
 
     //change the choose product
     choosenProduct = products[index];
+
+    //change text of current product
+    currentProductTitle.textContent = choosenProduct.title;
+    currentProductPrice.textContent = "$" + choosenProduct.price;
+    currentProductImg.src = choosenProduct.colors[0].img;
   });
 });
 /*
