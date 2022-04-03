@@ -103,6 +103,11 @@ menuItems.forEach((item, index) => {
     currentProductTitle.textContent = choosenProduct.title;
     currentProductPrice.textContent = "$" + choosenProduct.price;
     currentProductImg.src = choosenProduct.colors[0].img;
+
+    //assign new colors
+    currentProductColors.forEach((color, index) => {
+      color.style.backgroundColor = choosenProduct.colors[index].code;
+    });
   });
 });
 /*
@@ -110,3 +115,9 @@ Above is an event listener for the slider
 wrapper.style.transform = "translateX(-100vw)"
 for movement of slider 
 */
+
+currentProductColors.forEach((color, index) => {
+  color.addEventListener("click", () => {
+    currentProductImg.src = choosenProduct.colors[index].img;
+  });
+});
