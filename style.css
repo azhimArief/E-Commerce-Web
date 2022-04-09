@@ -1,10 +1,14 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Lato", sans-serif;
   padding: 0;
   margin: 0;
   //overflow: hidden;
 }
-/* 
+/*  
 I added the overflow hidden
 by default there will be space, the words will be spaced
 so put this to make it okay 
