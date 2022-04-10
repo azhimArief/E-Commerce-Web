@@ -291,6 +291,22 @@ label {
   background-color: #369e62;
   color: white;
   border: none;
+  cursor: pointer;
+}
+
+.close {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-color: gray;
+  color: white;
+  top: 10;
+  right: 10; 
+  display: flex;
+  align-item: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 3px;
 }
 
 .productImg {
