@@ -375,3 +375,29 @@ label {
 .galleryImg {
   width: 100%;
 }
+
+.newSeason {
+  display: flex;
+}
+.newSeasonItem {
+  flex: 1;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-item: center;
+  justify-content: center;
+  text-align: center;
+}
+.newSeasonImg {
+  width: 100%;
+  height: 500px;
+}
+.newSeasonTitle {
+  font-size: 40px;
+}
+.newSeasonButton {
+  padding: 15px;
+  font-weight: 800;
+  cursor: pointer
+}
