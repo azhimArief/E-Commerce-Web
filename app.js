@@ -132,5 +132,16 @@ currentProductSizes.forEach((size, index) => {
     size.style.color = "white";
   });
 });
-
 /* /function above is to make the size button change color */
+
+const productButton = document.querySelector(".productButton");
+const paymemt = document.querySelector(".payment");
+const close = document.querySelector(".close");
+
+productButton.addEventListener("click", () => {
+  paymemt.style.display="flex"
+})
+
+close.addEventListener("click", () => {
+  paymemt.style.display="none"
+})  
